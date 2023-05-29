@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai 17</title>
+  </head>
+  <body>
+    <script>
+      let integer = +prompt("Hãy nhập 1 số nguyên : ");
+
+      let notification = integer % 2 === 0;
+      let message = notification
+        ? "số bạn đã nhập là số chẵn : "
+        : "số bạn đã nhập là số lẽ : ";
+      alert(message + integer);
+    </script>
+  </body>
+</html>

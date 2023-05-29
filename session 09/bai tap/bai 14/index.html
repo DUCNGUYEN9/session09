@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai 14</title>
+  </head>
+  <body>
+    <script>
+      let studentId = prompt("Hãy nhập mã sinh viên : ");
+      let studentName = prompt("Hãy nhập tên sinh viên : ");
+      let htmlPoint = +prompt("Hãy nhập điểm html : ");
+      let cssPoint = +prompt("Hãy nhập điểm css : ");
+      let jsPoint = +prompt("Hãy nhập diểm javaScript : ");
+
+      let average = (htmlPoint + cssPoint + jsPoint) / 3;
+
+      document.write("mã sinh viên : " + studentId);
+      document.write("<br/>");
+      document.write("tên sinh viên : " + studentName);
+      document.write("<br/>");
+      document.write("điểm trung bình : " + average);
+    </script>
+  </body>
+</html>
